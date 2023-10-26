@@ -1,0 +1,58 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #040714;
+    color: #f9f9f9;
+    font-family: 'avenir-roman', Arial, sans-serif, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #f9f9f9;
+    text-decoration: none;
+}
+
+#login-bg {
+    height: 100%;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repat;
+    background-image: url(./../public/images/login-background.jpg);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+     
+}
+
+@media only screen and (min-width: 768px){
+
+    body {
+   font-size: 16px;
+    }
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px){
+    body {
+        font-size: 15px;
+         }
+
+}
+
+@media only screen and (max-width: 479px){
+
+    body {
+        font-size: 14px;
+         }
+}
+
